@@ -1,0 +1,167 @@
+* {
+    color: #a49163;
+    /* outline: 1px dotted black;*/
+}
+a {
+    padding: 10px;
+
+    color: #a49163;
+}
+a:hover {
+    text-decoration: none;
+
+    color: black;
+}
+h2 {
+    font-family: "Roboto Slab", serif;
+
+    letter-spacing: 3px;
+}
+.nav {
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    font-variant: normal;
+    line-height: 15.3999996185303px;
+
+    letter-spacing: 3px;
+
+    border-bottom: 2.5px solid #a49163;
+}
+.nav ul {
+    position: relative;
+    left: -40px;
+
+    display: inline-block;
+
+    list-style: none;
+}
+.nav ul li {
+    display: inline-block;
+    width: 100px;
+    padding: 5px 15px;
+
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    font-variant: normal;
+    line-height: 15.3999996185303px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    opacity: .8;
+    color: white;
+    background-color: #a49163;
+}
+.nav ul li:hover {
+    cursor: pointer;
+
+    opacity: 1;
+}
+@media screen and (min-width: 992px) {
+    .left_column {
+        padding-right: 0;
+
+        border-right: 2.5px solid #a49163;
+    }
+    .right_column {
+        padding-left: 0;
+    }
+}
+#l_r {
+    position: relative;
+    right: -10px;
+
+    padding-top: 20px;
+
+    text-align: right;
+}
+#logo {
+    text-align: center;
+}
+#logo h1 {
+    font-family: "Permanent Marker", cursive;
+    font-size: 50px;
+}
+#menu {
+    margin: 15px 0;
+}
+
+.content {
+    border-right: 2.5px solid #a49163;
+    border-left: 2.5px solid #a49163;
+}
+.border_bottom {
+    border-bottom: 2.5px solid #a49163;
+}
+.border_bottom img {
+    width: 100%;
+}
+.howto {
+    height: 200px;
+    padding: 10px;
+    padding-bottom: 35%;
+}
+.howto img {
+    max-height: 180px;
+    overflow: hidden;
+
+    opacity: .6;
+}
+.howto img:hover {
+    opacity: 1;
+}
+.box {
+    padding: 15px;
+}
+.sns {
+    padding: 10px;
+}
+.sns img {
+    display: inline-block;
+    width: 40px;
+}
+.sns div {
+    /* Firefox */
+    display:    -moz-box;
+    /* Safari and Chrome */
+    display: -webkit-box;
+    /* W3C */
+    display:         box;
+    width: 100%;
+
+    background-color: #e8f8ed;
+
+    -webkit-box-align: center;
+       -moz-box-align: center;
+            box-align: center;
+    -webkit-box-pack: center;
+       -moz-box-pack: center;
+            box-pack: center;
+}
+
+.square {
+    position: relative;
+
+    display: inline-block;
+    width: 30%;
+    padding-bottom: 30%; /* = width for a 1:1 aspect ratio */
+    margin: 1.4%;
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; /* you change this to "contain" if you don't want the images to be cropped */
+}
+
+.img_1-1 {
+    background-image: url("https://farm4.staticflickr.com/3766/12953056854_b8cdf14f21.jpg");
+}
+.img_1-2 {
+    background-image: url("https://farm7.staticflickr.com/6092/6227418584_d5883b0948.jpg");
+}
+.img_1-3 {
+    background-image: url("https://farm8.staticflickr.com/7187/6895047173_d4b1a0d798.jpg");
+}

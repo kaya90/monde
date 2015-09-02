@@ -1,0 +1,9 @@
+{
+	"name": "ProjectMean",
+	"dependencies": {
+		"express": "latest",
+		"body-parser": "latest",
+		"mongoose": "latest",
+		"express-session": "latest"
+	}
+}
